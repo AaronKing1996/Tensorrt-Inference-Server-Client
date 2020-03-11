@@ -16,7 +16,7 @@ This demo implements request trtis to inference.
 - run the tensorrt docker image
 	- `docker run -it --rm --net=host -v$PWD:/workspace/trt tensorrtserver_client`
 - cd /workspace/trt/python
-	- ``
+	- `python ak_image_client.py -m yolov3_608_trt -u X.X.X.X:XXX /workspace/trt/image/mayday.jpg`
 
 ## License
 For terms and conditions for use, reproduction, and distribution, see the [TensorRT Software License Agreement](https://docs.nvidia.com/deeplearning/sdk/tensorrt-sla/index.html) documentation.
